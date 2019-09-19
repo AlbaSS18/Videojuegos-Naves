@@ -18,6 +18,20 @@ class GameLayer extends Layer {
     }
 
     actualizar (){
+        // Generar Enemigos
+        if (this.iteracionesCrearEnemigos == null){
+            this.iteracionesCrearEnemigos = 0;
+        }
+        // iteracionesCrearEnemigos tiene que ser un número
+        this.iteracionesCrearEnemigos --;
+
+        if ( this.iteracionesCrearEnemigos < 0){
+            var rX = Math.random() * (600 - 500) + 500;
+            var rY = Math.random() * (300 - 60) + 60;
+            this.enemigos.push(new Enemigo(rX,rY));
+            this.iteracionesCrearEnemigos = 110;
+        }
+
         this.jugador.actualizar();
 
         for (var i=0; i < this.enemigos.length; i++){
@@ -50,6 +64,7 @@ class GameLayer extends Layer {
                 }
             }
         }
+
 
 
 
