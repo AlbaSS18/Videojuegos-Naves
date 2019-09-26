@@ -23,6 +23,9 @@ class GameLayer extends Layer {
 
     actualizar (){
 
+        this.fondo.vx = -1;
+        this.fondo.actualizar();
+
         console.log("disparosJugador: "+this.disparosJugador.length);
         // Eliminar disparos fuera de pantalla
         for (var i=0; i < this.disparosJugador.length; i++){

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14f71ae8-5a46-4cc7-abd4-737c44eac254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modelos/Texto.js" afterDir="false" />
+    <list default="true" id="14f71ae8-5a46-4cc7-abd4-737c44eac254" name="Default Changelist" comment="-Marcador de puntos&#10;-Animación básica">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layers/GameLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layers/GameLayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/Enemigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/Enemigo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/Modelo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/Modelo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelos/Fondo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/Fondo.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,19 +36,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modelos/Enemigo.js">
+        <entry file="file://$PROJECT_DIR$/src/modelos/Fondo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="782">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/modelos/Enemigo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layers/GameLayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="425">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -70,24 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modelos/DisparoJugador.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -128,7 +116,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/Main.js" />
         <option value="$PROJECT_DIR$/src/modelos/modelos.js" />
         <option value="$PROJECT_DIR$/src/Res.js" />
-        <option value="$PROJECT_DIR$/src/modelos/Fondo.js" />
         <option value="$PROJECT_DIR$/src/EventosTeclado.js" />
         <option value="$PROJECT_DIR$/src/layers/Layer.js" />
         <option value="$PROJECT_DIR$/Main.js" />
@@ -137,9 +124,11 @@
         <option value="$PROJECT_DIR$/src/modelos/Texto.js" />
         <option value="$PROJECT_DIR$/src/graficos/Animacion.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/modelos/Enemigo.js" />
         <option value="$PROJECT_DIR$/src/modelos/Modelo.js" />
+        <option value="$PROJECT_DIR$/src/modelos/Fondo.js" />
         <option value="$PROJECT_DIR$/src/layers/GameLayer.js" />
+        <option value="$PROJECT_DIR$/src/modelos/EnemigoBase.js" />
+        <option value="$PROJECT_DIR$/src/modelos/Enemigo.js" />
       </list>
     </option>
   </component>
@@ -154,40 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Videojuegos-Naves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Videojuegos-Naves" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Videojuegos-Naves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Videojuegos-Naves" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Videojuegos-Naves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Videojuegos-Naves" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graficos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Videojuegos-Naves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Videojuegos-Naves" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Videojuegos-Naves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Videojuegos-Naves" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modelos" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -195,7 +151,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../plataformas" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -228,12 +184,20 @@
       <option name="presentableId" value="Default" />
       <updated>1568900710103</updated>
       <workItem from="1568900715398" duration="6195000" />
-      <workItem from="1569488901319" duration="3133000" />
+      <workItem from="1569488901319" duration="6266000" />
     </task>
+    <task id="LOCAL-00001" summary="-Marcador de puntos&#10;-Animación básica">
+      <created>1569492367216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569492367216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9328000" />
+    <option name="totallyTimeSpent" value="12461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -261,6 +225,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-Marcador de puntos&#10;-Animación básica" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Marcador de puntos&#10;-Animación básica" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Res.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -273,13 +241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelos/Fondo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -332,13 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelos/Enemigo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modelos/Modelo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -346,10 +300,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelos/Fondo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/layers/GameLayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="425">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelos/EnemigoBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelos/Enemigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
