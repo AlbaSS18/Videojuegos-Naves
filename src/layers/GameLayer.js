@@ -15,9 +15,25 @@ class GameLayer extends Layer {
         this.enemigos.push(new Enemigo(300,50));
         this.enemigos.push(new Enemigo(350,200));
 
+        this.fondoPuntos =
+            new Fondo(imagenes.icono_puntos, 480*0.85,320*0.05);
+
+        this.puntos = new Texto(0,480*0.9,320*0.07 );
     }
 
     actualizar (){
+
+        console.log("disparosJugador: "+this.disparosJugador.length);
+        // Eliminar disparos fuera de pantalla
+        for (var i=0; i < this.disparosJugador.length; i++){
+            if ( this.disparosJugador[i] != null &&
+                !this.disparosJugador[i].estaEnPantalla()){
+
+                this.disparosJugador.splice(i, 1);
+                i=i-1;
+            }
+        }
+
         // Generar Enemigos
         if (this.iteracionesCrearEnemigos == null){
             this.iteracionesCrearEnemigos = 0;
@@ -61,9 +77,11 @@ class GameLayer extends Layer {
                     i = i-1;
                     this.enemigos.splice(j, 1);
                     j = j-1;
+                    this.puntos.valor++;
                 }
             }
         }
+
 
 
 
@@ -82,6 +100,8 @@ class GameLayer extends Layer {
             this.enemigos[i].dibujar();
         }
 
+        this.fondoPuntos.dibujar();
+        this.puntos.dibujar();
     }
 
     procesarControles( ){
